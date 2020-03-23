@@ -1,0 +1,7 @@
+This is for taking input image from the user
+
+python detect_faces.py --image test.jpg --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
+
+This is for detecting the faces through the webcam 
+
+python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
